@@ -1,6 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt" class="bg-background">
 <head>
+
+  <!-- Meta Pixel Code - 5 Pixels -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)
+}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+// Inicializar os 5 pixels
+fbq('init', '1815530286355393');
+fbq('init', '1798063954765833');
+fbq('init', '3775944405890132');
+fbq('init', '4468671683455903');
+fbq('init', '1600495764896744');
+
+// Disparar PageView em todos os pixels
+fbq('track', 'PageView');
+</script>
+
+<noscript>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1815530286355393&ev=PageView&noscript=1"/>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1798063954765833&ev=PageView&noscript=1"/>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=3775944405890132&ev=PageView&noscript=1"/>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=4468671683455903&ev=PageView&noscript=1"/>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1600495764896744&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Meta Pixel Code -->
+  
   <script>
 const ua = navigator.userAgent.toLowerCase();
 
